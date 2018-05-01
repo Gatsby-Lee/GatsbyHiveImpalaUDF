@@ -10,3 +10,4 @@ Impala UDF
 References
 -------------------
 * https://impala.apache.org/docs/build/html/topics/impala_udf.html
+* https://www.cloudera.com/documentation/enterprise/5-11-x/topics/cm_mc_hive_udf.html
