@@ -2,8 +2,20 @@ Hive and Impala UDF
 ===================
 
 Hive UDF
--------------------
-* None
+--------
+
+* show functions
+* describe function <function_name>
+
+Hive Built-in UDF
+^^^^^^^^^^^^^^^^^
+
+`get_json_object`
+
+.. code-block:: sql
+
+  select get_json_object('{"headers":["name","age"], "values":[1,2]}', '$.values[0]');
+
 
 Impala UDF
 -------------------
